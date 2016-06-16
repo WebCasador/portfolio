@@ -1,0 +1,169 @@
+@import "_global";
+@import "_vars";
+@import "_mobile";
+@import "_tablet450";
+@import "_tablet600";
+@import "_desk919";
+
+
+
+@media only screen and (min-width: 0px) {
+	section {padding: 0;}
+
+	#page-wrapper {
+		position: relative;
+		padding: 0 5%;
+		margin-bottom: 20px;
+	}
+	// #iframe-wrapper{
+	// 	position: absolute;
+	// 	display: block;
+	// }
+	#page-header{height: 10%;}
+	#page-info {width: 100%;}
+
+	#page-hero {
+		width: 50%;
+		display: block;
+		position: relative;
+		margin: 10% auto;
+
+		a img {
+			width: 100%;
+		}
+	}
+	.page-footer{
+		display: block;
+		position: relative;
+		padding-top: 20px;
+		bottom: 0;
+		h2{
+			display: none;
+		}
+		p{
+		margin: 5px 0;
+		}
+		.info {
+			display: inline-block;
+			margin: 0 auto;
+			height: auto;
+			a {width: 100%;}
+		}
+		.social {
+			display: block;
+			margin: 40px auto;
+			margin-left: 19%;
+			padding: 0;
+			.icon {
+				float: none;
+				margin: 0 auto;
+				padding-bottom: 22px;
+			}
+		}
+	}
+}
+@media only screen and (min-width:450px){
+	#page-hero a img{
+		width: 100%;
+	}
+	.page-footer {
+		position: relative;
+		margin-top: 0;
+		.info a{width: 45%;}
+	}
+	.iframe-wrapper{
+		iframe {
+			transform: scale(0.25, 0.25);
+		}
+	}
+}
+
+@media only screen and (min-width:600px){
+
+	#page-info, #page-hero {
+		width: 48%;
+		display: inline-block;
+	}
+	#page-info {
+		display: inline-block;
+		position: relative;
+		margin: 10% 0 0 0;
+	}
+	#page-hero {
+		float: left;
+		margin: 10% 0;
+		display: inline-block;
+			
+	}
+	.iframe-wrapper{
+
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+		iframe {
+			// width: 100%;
+			// height: 550px;
+			// background-image: url(../img/icons/iPhone6.png);
+			// background-repeat: no-repeat;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 900px;
+			height: 1400px;
+			margin: 0 28%;
+			border: 1px solid $orange;
+			box-sizing: border-box;
+			transform: scale(0.25, 0.25);
+			transform-origin: top left;
+			transition: transform .05s linear;
+			background-color: #fff;
+		}
+	}
+	
+
+	#page-header {
+		height: 1px;
+		.navbar {
+			color: $light-blue;
+		}
+	}
+		
+	.page-footer{
+		display: block;
+		position: absolute;
+		bottom: 0;
+		h2 {display: none;}
+		.info {
+			padding-top: 5%;
+			a{width: 45%;}
+		}
+		.social {
+			margin: 0 auto;
+			padding-left: 10%;
+		}
+	}
+}
+
+@media only screen and (min-width: 919px){
+	#page-header {margin: 0;}
+	.page-footer{position: fixed;
+		.info a{width: 40%;}
+	}
+	.page-info{margin: 10% 0;}
+	.iframe-wrapper{
+		iframe {
+			transform: scale(0.3, 0.3);
+		}
+	}
+}
+@media only screen and (min-width: 1200px){
+	.iframe-wrapper{
+		iframe {
+			transform: scale(0.75, 0.75);
+		}
+	}
+}

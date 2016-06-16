@@ -1,0 +1,28 @@
+@media only screen and (min-width:450px) {
+
+// ======CONTACT SECTION
+	footer {
+		h2 {
+			padding: 3%;
+			
+		}
+		.profile{
+			width: 40%;
+			margin: 0 3% 2%;
+			display: inline-block;
+			text-align: left;
+			p{margin: 0 auto;}
+		}
+		.social{
+			display: inline-flex;	
+		}
+		.info {
+			padding: 0 10%;
+			a{
+				width: 15%;
+				margin-right: 2%;
+				margin-left: 2%;
+			}
+		}
+	}
+}

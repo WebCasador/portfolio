@@ -1,0 +1,77 @@
+@import "_vars";
+@media only screen and (min-width: 0px) {
+
+// ======WORK SECTION
+	#work a{	
+		margin: 0% 5%;
+		padding-top: 22px;
+		
+	}
+	figure {
+		width: 90%;
+		margin: 13% 0% 0% 0%;
+		height: 300px;
+		overflow: visible;
+	}	
+	figcaption {
+		padding: 10px 0;
+		background-color: transparent;
+		opacity: .9;
+		width: 100%;
+		height: auto;
+		bottom: auto;
+		transition: none;
+		position: absolute;
+		top: -40px;
+		color: $orange;
+		font-size: 1.2rem;
+	}
+
+// ======ABOUT SECTION
+	#about h2 {
+		margin: 8%;
+	}
+
+	#about p {
+		margin: 8%;
+	}
+	#IVH {display: none;} /*display only on larger screens because of iframe issues on mobile*/
+
+
+// ======WORK SECTION
+	#work h2 {
+		padding: 9% 5% 2%;
+	}
+
+// ======CONTACT SECTION
+	footer {
+		h2 {
+			padding: 5% 8%;
+			margin: 0;
+		}
+		.profile{
+			width: 90%;
+			margin: 0 8% 3%;
+			display: block;
+			text-align: center;
+		}
+		.social{
+			text-align: center;
+			width: 75%;
+			display: block;
+			bottom: -20px;
+
+		}
+		.info{
+			display: block;
+			position: relative;
+			text-align: center;
+			 a{
+			 	display: block;
+				width: 90%;
+				margin: 1% 8%;
+			}
+		}
+		 
+	}	
+}

@@ -1,0 +1,973 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Droid+Serif|Julius+Sans+One|Crimson+Text|Philosopher|Muli|Oswald|Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Lato|Droid+Serif|Julius+Sans+One|Crimson+Text|Philosopher|Muli|Oswald|Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Lato|Droid+Serif|Julius+Sans+One|Crimson+Text|Philosopher|Muli|Oswald|Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Lato|Droid+Serif|Julius+Sans+One|Crimson+Text|Philosopher|Muli|Oswald|Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Lato|Droid+Serif|Julius+Sans+One|Crimson+Text|Philosopher|Muli|Oswald|Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Lato|Droid+Serif|Julius+Sans+One|Crimson+Text|Philosopher|Muli|Oswald|Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Lato|Droid+Serif|Julius+Sans+One|Crimson+Text|Philosopher|Muli|Oswald|Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Lato|Droid+Serif|Julius+Sans+One|Crimson+Text|Philosopher|Muli|Oswald|Quattrocento);
+h1, h2, a {
+  font-family: "Philosopher", serif; }
+
+h3, h4, h5, h6 {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Quattrocentro", serif; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3rem; }
+
+h2 {
+  color: #ffa500;
+  margin: 0; }
+
+h3 {
+  color: #bada55;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  bottom: 0; }
+
+p {
+  font-size: 1.5em; }
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #bada55; }
+
+h1, h2, a {
+  font-family: "Philosopher", serif; }
+
+h3, h4, h5, h6 {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Quattrocentro", serif; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3rem; }
+
+h2 {
+  color: #ffa500;
+  margin: 0; }
+
+h3 {
+  color: #bada55;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  bottom: 0; }
+
+p {
+  font-size: 1.5em; }
+
+h1, h2, a {
+  font-family: "Philosopher", serif; }
+
+h3, h4, h5, h6 {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Quattrocentro", serif; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3rem; }
+
+h2 {
+  color: #ffa500;
+  margin: 0; }
+
+h3 {
+  color: #bada55;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  bottom: 0; }
+
+p {
+  font-size: 1.5em; }
+
+@media only screen and (min-width: 0px) {
+  #work a {
+    margin: 0% 5%;
+    padding-top: 22px; }
+  figure {
+    width: 90%;
+    margin: 13% 0% 0% 0%;
+    height: 300px;
+    overflow: visible; }
+  figcaption {
+    padding: 10px 0;
+    background-color: transparent;
+    opacity: .9;
+    width: 100%;
+    height: auto;
+    bottom: auto;
+    transition: none;
+    position: absolute;
+    top: -40px;
+    color: #ffa500;
+    font-size: 1.2rem; }
+  #about h2 {
+    margin: 8%; }
+  #about p {
+    margin: 8%; }
+  #IVH {
+    display: none; }
+  /*display only on larger screens because of iframe issues on mobile*/
+  #work h2 {
+    padding: 9% 5% 2%; }
+  footer h2 {
+    padding: 5% 8%;
+    margin: 0; }
+  footer .profile {
+    width: 90%;
+    margin: 0 8% 3%;
+    display: block;
+    text-align: center; }
+  footer .social {
+    text-align: center;
+    width: 75%;
+    display: block;
+    bottom: -20px; }
+  footer .info {
+    display: block;
+    position: relative;
+    text-align: center; }
+    footer .info a {
+      display: block;
+      width: 90%;
+      margin: 1% 8%; } }
+
+@media only screen and (min-width: 450px) {
+  footer h2 {
+    padding: 3%; }
+  footer .profile {
+    width: 40%;
+    margin: 0 3% 2%;
+    display: inline-block;
+    text-align: left; }
+    footer .profile p {
+      margin: 0 auto; }
+  footer .social {
+    display: inline-flex; }
+  footer .info {
+    padding: 0 10%; }
+    footer .info a {
+      width: 15%;
+      margin-right: 2%;
+      margin-left: 2%; } }
+
+@media only screen and (min-width: 600px) {
+  #navbar.fixed ul {
+    text-align: right;
+    right: 10px;
+    transition: 2s; }
+  #about {
+    position: relative;
+    display: flex; }
+  .who, .what {
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    margin: 0 auto; }
+  #work {
+    padding: 0% 2.5%; }
+    #work h2 {
+      padding: 5% 1.24%; }
+    #work a {
+      margin: 0% 1.3%; }
+  figure {
+    clear: both;
+    width: 47%;
+    height: 250px;
+    margin: 1.25% 0% 10% 0%; }
+  #about h2 {
+    margin: 2.5%; }
+  #about p {
+    margin: 2.5%; }
+  #contact h2 {
+    padding: 3%; }
+  #contact .profile {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    display: block; }
+  #contact .info
+a {
+    width: 30%; }
+  #contact .social {
+    width: 50%;
+    display: inline-flex;
+    bottom: -30px;
+    right: -12%; } }
+
+h1, h2, a {
+  font-family: "Philosopher", serif; }
+
+h3, h4, h5, h6 {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Quattrocentro", serif; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3rem; }
+
+h2 {
+  color: #ffa500;
+  margin: 0; }
+
+h3 {
+  color: #bada55;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  bottom: 0; }
+
+p {
+  font-size: 1.5em; }
+
+@media only screen and (min-width: 919px) {
+  #work {
+    padding: 2%; }
+  #work h2 {
+    padding: 3% 1.25%; }
+  #work a {
+    margin: 1%;
+    overflow: hidden; }
+  #IVH {
+    display: inline; }
+  /*display only on larger screens because of iframe issues on mobile*/
+  figure {
+    clear: both;
+    width: 31%;
+    margin-bottom: 7px;
+    position: relative;
+    overflow: hidden;
+    transition: .6s; }
+  figcaption {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #bada55;
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    bottom: -100%;
+    transition: 0.6s; }
+  figure:hover figcaption {
+    top: 0; }
+  #about h2 {
+    margin: 2%; }
+  #about p {
+    margin: 2%; }
+  #contact .info a.email {
+    width: 21%; }
+  .social .icon {
+    float: right; } }
+
+@media only screen and (min-width: 1200px) {
+  #contact .info a.email {
+    width: 10%; } }
+
+h1, h2, a {
+  font-family: "Philosopher", serif; }
+
+h3, h4, h5, h6 {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Quattrocentro", serif; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3rem; }
+
+h2 {
+  color: #ffa500;
+  margin: 0; }
+
+h3 {
+  color: #bada55;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  bottom: 0; }
+
+p {
+  font-size: 1.5em; }
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #bada55; }
+
+h1, h2, a {
+  font-family: "Philosopher", serif; }
+
+h3, h4, h5, h6 {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Quattrocentro", serif; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3rem; }
+
+h2 {
+  color: #ffa500;
+  margin: 0; }
+
+h3 {
+  color: #bada55;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  bottom: 0; }
+
+p {
+  font-size: 1.5em; }
+
+h1, h2, a {
+  font-family: "Philosopher", serif; }
+
+h3, h4, h5, h6 {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Quattrocentro", serif; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3rem; }
+
+h2 {
+  color: #ffa500;
+  margin: 0; }
+
+h3 {
+  color: #bada55;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  bottom: 0; }
+
+p {
+  font-size: 1.5em; }
+
+@media only screen and (min-width: 0px) {
+  #work a {
+    margin: 0% 5%;
+    padding-top: 22px; }
+  figure {
+    width: 90%;
+    margin: 13% 0% 0% 0%;
+    height: 300px;
+    overflow: visible; }
+  figcaption {
+    padding: 10px 0;
+    background-color: transparent;
+    opacity: .9;
+    width: 100%;
+    height: auto;
+    bottom: auto;
+    transition: none;
+    position: absolute;
+    top: -40px;
+    color: #ffa500;
+    font-size: 1.2rem; }
+  #about h2 {
+    margin: 8%; }
+  #about p {
+    margin: 8%; }
+  #IVH {
+    display: none; }
+  /*display only on larger screens because of iframe issues on mobile*/
+  #work h2 {
+    padding: 9% 5% 2%; }
+  footer h2 {
+    padding: 5% 8%;
+    margin: 0; }
+  footer .profile {
+    width: 90%;
+    margin: 0 8% 3%;
+    display: block;
+    text-align: center; }
+  footer .social {
+    text-align: center;
+    width: 75%;
+    display: block;
+    bottom: -20px; }
+  footer .info {
+    display: block;
+    position: relative;
+    text-align: center; }
+    footer .info a {
+      display: block;
+      width: 90%;
+      margin: 1% 8%; } }
+
+@media only screen and (min-width: 450px) {
+  footer h2 {
+    padding: 3%; }
+  footer .profile {
+    width: 40%;
+    margin: 0 3% 2%;
+    display: inline-block;
+    text-align: left; }
+    footer .profile p {
+      margin: 0 auto; }
+  footer .social {
+    display: inline-flex; }
+  footer .info {
+    padding: 0 10%; }
+    footer .info a {
+      width: 15%;
+      margin-right: 2%;
+      margin-left: 2%; } }
+
+@media only screen and (min-width: 600px) {
+  #navbar.fixed ul {
+    text-align: right;
+    right: 10px;
+    transition: 2s; }
+  #about {
+    position: relative;
+    display: flex; }
+  .who, .what {
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    margin: 0 auto; }
+  #work {
+    padding: 0% 2.5%; }
+    #work h2 {
+      padding: 5% 1.24%; }
+    #work a {
+      margin: 0% 1.3%; }
+  figure {
+    clear: both;
+    width: 47%;
+    height: 250px;
+    margin: 1.25% 0% 10% 0%; }
+  #about h2 {
+    margin: 2.5%; }
+  #about p {
+    margin: 2.5%; }
+  #contact h2 {
+    padding: 3%; }
+  #contact .profile {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    display: block; }
+  #contact .info
+a {
+    width: 30%; }
+  #contact .social {
+    width: 50%;
+    display: inline-flex;
+    bottom: -30px;
+    right: -12%; } }
+
+h1, h2, a {
+  font-family: "Philosopher", serif; }
+
+h3, h4, h5, h6 {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Quattrocentro", serif; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3rem; }
+
+h2 {
+  color: #ffa500;
+  margin: 0; }
+
+h3 {
+  color: #bada55;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  bottom: 0; }
+
+p {
+  font-size: 1.5em; }
+
+@media only screen and (min-width: 919px) {
+  #work {
+    padding: 2%; }
+  #work h2 {
+    padding: 3% 1.25%; }
+  #work a {
+    margin: 1%;
+    overflow: hidden; }
+  #IVH {
+    display: inline; }
+  /*display only on larger screens because of iframe issues on mobile*/
+  figure {
+    clear: both;
+    width: 31%;
+    margin-bottom: 7px;
+    position: relative;
+    overflow: hidden;
+    transition: .6s; }
+  figcaption {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #bada55;
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    bottom: -100%;
+    transition: 0.6s; }
+  figure:hover figcaption {
+    top: 0; }
+  #about h2 {
+    margin: 2%; }
+  #about p {
+    margin: 2%; }
+  #contact .info a.email {
+    width: 21%; }
+  .social .icon {
+    float: right; } }
+
+@media only screen and (min-width: 1200px) {
+  #contact .info a.email {
+    width: 10%; } }
+
+@media only screen and (min-width: 0px) {
+  section {
+    padding: 0; }
+  #page-wrapper {
+    position: relative;
+    padding: 0 5%;
+    margin-bottom: 20px; }
+  #page-header {
+    height: 10%; }
+  #page-info {
+    width: 100%; }
+  #page-hero {
+    width: 50%;
+    display: block;
+    position: relative;
+    margin: 10% auto; }
+    #page-hero a img {
+      width: 100%; }
+  .page-footer {
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    bottom: 0; }
+    .page-footer h2 {
+      display: none; }
+    .page-footer p {
+      margin: 5px 0; }
+    .page-footer .info {
+      display: inline-block;
+      margin: 0 auto;
+      height: auto; }
+      .page-footer .info a {
+        width: 100%; }
+    .page-footer .social {
+      display: block;
+      margin: 40px auto;
+      margin-left: 19%;
+      padding: 0; }
+      .page-footer .social .icon {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 22px; } }
+
+@media only screen and (min-width: 450px) {
+  #page-hero a img {
+    width: 100%; }
+  .page-footer {
+    position: relative;
+    margin-top: 0; }
+    .page-footer .info a {
+      width: 45%; }
+  .iframe-wrapper iframe {
+    transform: scale(0.25, 0.25); } }
+
+@media only screen and (min-width: 600px) {
+  #page-info, #page-hero {
+    width: 48%;
+    display: inline-block; }
+  #page-info {
+    display: inline-block;
+    position: relative;
+    margin: 10% 0 0 0; }
+  #page-hero {
+    float: left;
+    margin: 10% 0;
+    display: inline-block; }
+  .iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; }
+    .iframe-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 900px;
+      height: 1400px;
+      margin: 0 28%;
+      border: 1px solid #ffa500;
+      box-sizing: border-box;
+      transform: scale(0.25, 0.25);
+      transform-origin: top left;
+      transition: transform .05s linear;
+      background-color: #fff; }
+  #page-header {
+    height: 1px; }
+    #page-header .navbar {
+      color: #98D8FA; }
+  .page-footer {
+    display: block;
+    position: absolute;
+    bottom: 0; }
+    .page-footer h2 {
+      display: none; }
+    .page-footer .info {
+      padding-top: 5%; }
+      .page-footer .info a {
+        width: 45%; }
+    .page-footer .social {
+      margin: 0 auto;
+      padding-left: 10%; } }
+
+@media only screen and (min-width: 919px) {
+  #page-header {
+    margin: 0; }
+  .page-footer {
+    position: fixed; }
+    .page-footer .info a {
+      width: 40%; }
+  .page-info {
+    margin: 10% 0; }
+  .iframe-wrapper iframe {
+    transform: scale(0.3, 0.3); } }
+
+@media only screen and (min-width: 1200px) {
+  .iframe-wrapper iframe {
+    transform: scale(0.75, 0.75); } }
+
+header {
+  width: 100%;
+  height: 97%; }
+
+.background_blue {
+  width: 100%;
+  height: 97%;
+  position: absolute;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.logo_wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/icons/logo.svg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: .5; }
+
+#navbar {
+  width: 100%;
+  height: 30px;
+  bottom: 10%;
+  opacity: .9;
+  transition: .5s; }
+  #navbar #initials {
+    display: none; }
+  #navbar a:hover {
+    color: #fff;
+    transition: .2s; }
+
+#navbar.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  opacity: 1;
+  background-color: #111;
+  transition: 2s; }
+  #navbar.fixed ul {
+    float: right; }
+  #navbar.fixed a {
+    color: #bada55;
+    text-decoration: none; }
+    #navbar.fixed a:hover {
+      color: #d1e5e1; }
+  #navbar.fixed #initials {
+    display: inline;
+    color: #bada55;
+    margin: 5px;
+    transition: .5s; }
+    #navbar.fixed #initials:hover {
+      transform: scale(1.1, 1.1);
+      position: relative;
+      color: #d1e5e1;
+      transition: .3s;
+      padding-left: 5px; }
+
+nav ul {
+  margin: 0;
+  padding: 5px;
+  text-align: center; }
+  nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 13px;
+    color: #fff;
+    transition: all .2s ease-in-out; }
+  nav ul a {
+    text-decoration: none;
+    color: #bada55;
+    font-size: 1.1rem; }
+
+section {
+  height: auto;
+  padding: 0 5%; }
+
+/*================PORTFOLIO WORK SECTION====================================*/
+#work {
+  background-color: #fff; }
+
+#work a {
+  margin-bottom: 25px;
+  text-decoration: none; }
+
+figure {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  transition: .5s; }
+  figure figcaption {
+    font-family: "Julius Sans One", sans-serif; }
+
+#schick {
+  background-image: url("../img/thumbs/schick.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#touch_agency {
+  background-image: url("../img/thumbs/touch.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#vanHerpen {
+  background-image: url("../img/thumbs/microhaute.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#slipNip {
+  background-image: url("../img/thumbs/slipNip.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#infographic {
+  background-image: url("../img/thumbs/infograph4.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+#beer_foundation {
+  background-image: url("../img/thumbs/beer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#grassfed {
+  background-image: url("../img/thumbs/grassfed.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#intouch {
+  background-image: url("../img/thumbs/intouch.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#redcross {
+  background-image: url("../img/thumbs/redcross.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+#chile {
+  background-image: url("../img/thumbs/hotchili.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/*=================ABOUT SECTION=======================*/
+#about {
+  width: 100%;
+  padding: 20px;
+  background-color: #98D8FA; }
+  #about a {
+    color: #111; }
+    #about a:hover {
+      color: #fff;
+      text-decoration: none;
+      transition: .2s; }
+
+/*=================CONTACT SECTION=======================*/
+#contact, .page-footer {
+  width: 100%;
+  background-color: #111; }
+  #contact .profile, .page-footer .profile {
+    color: #d1e5e1;
+    display: flex;
+    margin: 0 auto 3%; }
+  #contact .info, .page-footer .info {
+    width: 100%;
+    display: block;
+    background-color: #111;
+    bottom: 0;
+    padding: 3%; }
+    #contact .info a, .page-footer .info a {
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      color: #bada55;
+      font-size: 1.4rem;
+      font-weight: lighter; }
+      #contact .info a:hover, .page-footer .info a:hover {
+        color: #d1e5e1; }
+    #contact .info a.resume, .page-footer .info a.resume {
+      width: 115px;
+      padding: 5px;
+      margin: 10px auto 0;
+      border: 1px solid #bada55;
+      border-radius: 5px; }
+      #contact .info a.resume:hover, .page-footer .info a.resume:hover {
+        color: #ffa500;
+        border-color: #d1e5e1; }
+  #contact .social, .page-footer .social {
+    width: 100%;
+    height: 80px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 5%;
+    right: 0;
+    background-color: #4C4B4B; }
+  #contact .icon, .page-footer .icon {
+    width: 55px;
+    height: 55px;
+    margin: 10px auto;
+    display: inline-block;
+    position: relative;
+    text-indent: -10000px;
+    transition: .3s;
+    border: 1px solid #4C4B4B;
+    border-radius: 30px;
+    transform: scale(0.8, 0.8);
+    opacity: .8; }
+    #contact .icon:hover, .page-footer .icon:hover {
+      border: 1px groove #ffa500;
+      opacity: 1;
+      transition: .5s;
+      border-radius: 30px;
+      transform: scale(1, 1); }
+  #contact #linkedIn, .page-footer #linkedIn {
+    background-image: url("../img/icons/drawn_linkedin.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #contact #twitter, .page-footer #twitter {
+    background-image: url("../img/icons/drawn_twitter.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #contact #github, .page-footer #github {
+    background-image: url("../img/icons/drawn_github.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #contact #instagram, .page-footer #instagram {
+    background-image: url("../img/icons/drawn_instagram.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #contact #facebook, .page-footer #facebook {
+    background-image: url("../img/icons/drawn_facebook.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #contact #pinterest, .page-footer #pinterest {
+    background-image: url("../img/icons/drawn_pinterest.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
